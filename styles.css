@@ -1,8 +1,52 @@
+header {
+  /* position: fixed; */
+  /* top: 0; */
+  /* width: 100%; */
+}
+
 header ul {
   display: flex;
   gap: 8px;
+  font-size: 1.2em;
 }
 
 header li {
   list-style-type: none;
+}
+
+header,
+footer {
+  padding: 16px;
+  background-color: lightblue;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+nav h3 {
+  font-size: 1.4em;
+}
+
+section {
+  height: 400px;
+  padding: 20px;
+}
+
+#top_section {
+  background-color: plum;
+}
+
+#about_section {
+  background-color: burlywood;
+}
+
+#skills_section {
+  background-color: yellowgreen;
+}
+
+#contact_section {
+  background-color: greenyellow;
 }
